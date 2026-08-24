@@ -120,7 +120,7 @@ Measures how much of the variation in vehicle prices is explained by the model.
 The model achieved an R² score of approximately:
 
 ```text
-R² ≈ 0.08
+R² ≈ 0.73
 ```
 
 The relatively low R² indicates that a simple Multiple Linear Regression model does not capture all the complexity of used-car pricing.
@@ -252,24 +252,6 @@ Residual Analysis
    ↓
 Regression Assumption Analysis
 ```
-
----
-
-## 🎯 Future Improvements
-
-The current project is intentionally based on Multiple Linear Regression.
-
-Future improvements could include:
-
-* More advanced feature engineering
-* Better handling of high-cardinality categorical features
-* Log transformation of the target variable
-* More sophisticated outlier treatment
-* Regularization techniques such as Ridge and Lasso
-* Comparing multiple regression models
-* Hyperparameter tuning
-* Deployment as a web application
-* Building an interactive car-price prediction interface
 
 ---
 
