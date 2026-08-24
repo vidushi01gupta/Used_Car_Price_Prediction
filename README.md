@@ -123,18 +123,6 @@ The model achieved an R² score of approximately:
 R² ≈ 0.73
 ```
 
-The relatively low R² indicates that a simple Multiple Linear Regression model does not capture all the complexity of used-car pricing.
-
-Possible reasons include:
-
-* Highly skewed vehicle prices
-* Luxury and high-performance vehicles
-* Large variation between vehicle brands and models
-* High-cardinality categorical variables
-* Non-linear relationships between features and price
-* Outliers in the target variable
-* Limited number of observations for some vehicle categories
-
 The project focuses on understanding the complete **regression workflow**, including preprocessing, feature engineering, model training, evaluation, residual analysis, and regression assumptions.
 
 ---
